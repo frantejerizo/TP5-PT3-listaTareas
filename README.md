@@ -1,4 +1,4 @@
-# To-Do List Web App
+# Lista de Tareas
 
 ## Descripción
 
@@ -19,7 +19,8 @@ Este proyecto es una **aplicación web de lista de tareas** simple desarrollada 
 
 ## Instalación y Uso
 
-### 1. Clonar el repositorio
+Para usar este programa no se requiere ningun programa externo, solo es necesario clonar el repositorio en tu dispositivo y ejecutar index.html
 
+### Clonar el repositorio
 ```bash
 git clone https://github.com/frantejerizo/TP5-PT3-listaTareas.git
