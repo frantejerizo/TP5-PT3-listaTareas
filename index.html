@@ -19,31 +19,25 @@
         <p>Ingrese una tarea en el campo de entrada y añadala a la lista con el boton.</p>
 
         <div>
-          <form class="d-flex gap-2">
+          
             <input
             id="inputTareas"
             type="text"
             class="form-control mb-3"
             placeholder="Ej: Lavar los platos a las 15:00"
-            minlength="4"
-            maxlength="300"
+            maxlength="40"
             required
             />
-            <button type="submit" class="btn btn-primary">
+            <button class="btn btn-primary" onclick="crearTarea()">
             Agregar tarea
             </button>
-          </form>
+          
         </div>
 
         <article class="mt-5">
           <h3 class="mb-4">Tareas actuales:</h3>
-          <ul>
-
-            <div class="d-flex justify-content-between mb-2">
-            <li>Tarea de ejemplo</li>
-            <button class="btn btn-danger"><i class="bi bi-trash3"></i></button>
-            </div>
-
+          <ul id="listaDesordenada">
+            <!-- Aqui se agregaran las tareas a medida que el usuario vaya agregandolas con el boton de Agregar Tarea -->
           </ul>
         </article>
 
